@@ -165,8 +165,27 @@
             </div>
 
             <div class="body"></div>
-            <div class="bg-white rounded shadow p-3 display-none no-charts">Looks like you don't have any charts
-                installed. "Repository" section may be a good place to start.
+            <div class="bg-white rounded shadow p-3 display-none no-charts">
+                <p class="row p-3">Looks like you don't have any charts installed. "Repository" section may be a good place to start.</p>
+                <div class="row m-0 p-3 mb-3 bg-white rounded-1 b-shadow border-4 border-start">
+                    <div class="col-4 rel-name">
+                        <span>onlineboutique</span>
+                        <div>NAME</div>
+                    </div>
+                    <div class="col-5 rel-description">
+                        <span>This is a sample chart to start with. Simply go ahead and hit the <b>Install</b> to 
+                            deploy the chart in the current selected cluster</span>
+                        <!-- <div>DESCRIPTION</div> -->
+                    </div>
+                    <div class="col-2 rel-ns text-nowrap">
+                        <span></span>
+                        <div>Namespace</div>
+                    </div>
+                    <button id="btnInstallOnlineboutique" class="col-1 btn btn-sm btn-light bg-white border border-secondary">
+                        <span></span>
+                        <div>Install</div>
+                    </button>
+                </div>
             </div>
             <div class="bg-white rounded shadow p-3 display-none all-filtered">There are no releases matching your
                 filter criteria. Reset your filters or install more charts.

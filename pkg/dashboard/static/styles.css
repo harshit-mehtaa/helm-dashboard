@@ -170,7 +170,7 @@ span.link {
     background-size: 3rem;
 }
 
-#installedList .rel-name div {
+#installedList .rel-name div, #installedList .rel-description span {
     overflow: hidden;
 }
 
